@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>my_form</title>
+</head>
+<body dir="rtl">
+    <header>
+        <h1>רישום לקורס</h1>
+    </header>
+    <article>
+        <form name="הרשמה" action="">
+            <input type="text" name="name" id="name" required autofocus placeholder="שם מלא" aria-live="assertive" maxlength="30" minlength="2">
+            <br><input type="tel" dir="rtl" name="tel" id="tel" placeholder="טלפון" required minlength="7">
+            <br> <input type="email" name="email" id="email" placeholder="email">
+            <br><input type="text" name="adress" id="adress" placeholder="כתובת">
+            <label for="city">עיר</label>
+            <select name="city" id="city">
+                <option value="city">ירושלים</option>
+                <option value="city">מודיעין עילית</option>
+                <option value="city">בני ברק</option>
+                <option value="city">ביתר</option>
+                <option value="city">בית שמש</option>
+                <option value="city">אלעד</option>
+            </select>
+           <hr>
+            <label for="course">קורס:</label>
+            <select name="course" id="course">
+                <option value="course">תסרוקות נערות ז-י</option>
+                <option value="course">תסרוקות מתקדמות ט-יב</option>
+                <option value="course">מתקדמות++</option>
+              <option value ="course">פאנות</option>
+                <option value="course">פאנות מתקדמות</option>
+                              
+            </select>
+            <br>
+            <label for="sunday">ראשון</label>
+            <input type="radio" name="day" id="sunday" value="sunday">
+            <label for="mondat">שני</label>
+            <input type="radio" name="day" id="mondat" value="mondat">
+            <label for="wednesday">רביעי</label>
+            <input type="radio" name="day" id="wednesday" value="wednesday">
+            <hr>
+            <textarea name="textarea" id="textarea" rows="5" placeholder="הערות"></textarea>
+            <hr>
+            <footer>
+                <button type="submit">להרשמה</button>
+            </footer>
+            <br> 
+        </form>
+    </article>
+</body>
+</html>

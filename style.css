@@ -1,0 +1,19 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    background-color: rgb(223, 251, 248);
+}
+table{
+    background-color: cadetblue;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li{
+    list-style-type: disc;
+}
+footer{
+    background-color: rgb(192, 251, 245);
+}
+button{
+   
+    font-weight: bold;
+}
